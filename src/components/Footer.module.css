@@ -1,0 +1,21 @@
+.Img {
+  width: 120px;
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: 110px;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color: purple;
+}
+
+.LeftMar {
+  margin-left: 22px;
+}
+
+@media (min-width: 992px) {
+  .LeftMar {
+    margin-left: 0px;
+  }
+}

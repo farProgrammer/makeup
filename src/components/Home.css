@@ -1,0 +1,47 @@
+.Dots {
+  border-bottom: dotted 8px yellow;
+  max-width: 320px;
+  margin: auto;
+}
+
+.CardImg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.MarginTop {
+  margin-top: 60px !important;
+}
+
+.Img {
+  border-radius: 120px;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Hov {
+  box-shadow: 0 0 7px rgba(33, 33, 33, 0.2) !important;
+  transition: box-shadow 0.2s ease-in-out 0s;
+}
+
+.Hov:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.3) !important;
+}
+
+.HovText:hover {
+  text-decoration: none !important;
+}
+
+.Mobile {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .Mobile {
+    text-align: left;
+  }
+}
